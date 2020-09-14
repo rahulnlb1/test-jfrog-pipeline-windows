@@ -2,10 +2,10 @@ resources:
   - name: myRepo
     type: GitRepo
     configuration:
-      gitProvider: vijay
-      path: vijayreddy1991/powershell
+      gitProvider: rahuljGithub
+      path: rahuljain/powershell
 pipelines:
-  - name: vijay_pipeline
+  - name: rahul_pipeline
     steps:  
       - name: functions
         type: PowerShell 
