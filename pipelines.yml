@@ -6,6 +6,8 @@ resources:
       path: rahulnlb1/test-jfrog-pipeline-windows
 pipelines:
   - name: rahul_pipeline
+    configuration:
+      nodePool: windows-static-2
     steps:  
       - name: functions
         type: PowerShell 
