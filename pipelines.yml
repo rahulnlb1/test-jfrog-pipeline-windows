@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: rahuljGithub
-      path: rahuljain/powershell
+      path: rahulnlb1/test-jfrog-pipeline-windows
 pipelines:
   - name: rahul_pipeline
     steps:  
